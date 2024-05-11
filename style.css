@@ -1,0 +1,85 @@
+header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 900;
+}
+
+body {
+    background: beige;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+.pics-party {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+}
+
+.pics-party img, .pics-party .maids {
+    border: 2px dotted #000000;
+    margin: 20px;
+    flex: 1;
+    min-height: 100%;
+    max-width: 45%;
+    background: #9c9999;
+    border-radius: 5px;
+}
+
+/* .pics-party img {
+    width: 43%;
+} */
+
+.pics-party .maids ul {
+    list-style-type: none;
+    padding-left: 15px;
+    flex-wrap: wrap;
+}
+
+
+.events-dressing {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* align-content: space-around; */
+}
+
+.events-dressing .events ul {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.events-dressing .events ,
+.events-dressing .dressing {
+    background: #9c9999;
+    border: 2px dotted #000000;
+    margin: 20px;
+    flex: 1;
+    max-width: 44%;
+    min-height: 100%;
+    border-radius: 5px;
+}
+
+.events-dressing p {
+    padding: 15px;
+}
